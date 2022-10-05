@@ -1,13 +1,17 @@
 import './App.css';
+import TopNav from './components/TopNav';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="topnav">
-      <a href="#">About</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Contact</a>
-    </div>
+   <div>
+    <TopNav />
+    <About />
+    <Portfolio />
+    <Contact />
+   </div>
   );
 }
-
 export default App;
