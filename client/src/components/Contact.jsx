@@ -10,6 +10,8 @@ export default function Contact () {
         <a href="https://www.linkedin.com/in/karolina-redden/">LinkedIn</a></span>
         <span className="contact-element"><i class="icon-github icon-2x"></i>
         <a href="https://github.com/quackness">/quackness</a></span>
+        <span className="contact-element"><i class="icon-instagram icon-2x"></i>
+        <a href="https://github.com/quackness">/dakaraah</a></span>
       </div>
     </div>
 
