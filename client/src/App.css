@@ -75,6 +75,7 @@
 
 .flex-right {
   font-size: x-large;
+  line-height: 1.5;
   margin: 65px 70px;
   width: 58%;
 }
@@ -89,7 +90,8 @@ ul li::before {
   font-weight: bolder;
   display: inline-block; 
   width: 1em;
-  margin-left: -1em;
+  margin-left: 2em;
+  line-height: normal;
 }
 
 .portfolio {
@@ -109,7 +111,11 @@ ul li::before {
   font-size: x-large;
 }
 
+.videos {
+  margin-left: 90px;
+  margin-top: 30px;
 
+}
 
 
 
@@ -122,6 +128,7 @@ ul li::before {
 
 .contact a {
   font-size: x-large;
+  color: #282c34;
 }
 
 .contact h2 {
@@ -132,6 +139,10 @@ ul li::before {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.contact-element i {
+  margin-right: 15px;
 }
 
 
