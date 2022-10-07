@@ -101,6 +101,7 @@ ul li::before {
 
 .portfolio h2 {
   margin-bottom: 30px;
+
 }
 
 .portfolio h3, p {
@@ -111,13 +112,14 @@ ul li::before {
   font-size: x-large;
 }
 
+.projects {
+  display:flex;
+}
+
 .videos {
   margin-left: 90px;
   margin-top: 30px;
 }
-
-
-
 
 
 .contact {

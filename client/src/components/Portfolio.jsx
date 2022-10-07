@@ -2,10 +2,22 @@ export default function Portfolio () {
   return (
     <div className="portfolio" id="portfolio">
       <h2>Projects</h2> 
+      <div className="projects">
+        <div className="portfolio-details">
         <h3><a href="https://toolswap.netlify.app/">ToolSwap <i class="icon-link"></i></a></h3>
         <p>Web CRUD app for scheduling a neighbourhood tool rental. The app is using React calendar for logged-in users to schedule the rental. The logged in user has a full control over his reservations, can add items to the poll and manage them. Admin section allows to manage all the tools, categories and groups.</p>
         <p> Stack: PostgreSQL, Express, React, Node.</p>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Tk4Sc80ZBsE" allowfullscreen></iframe>
+</div>
+        {/* <div className="portolio-video ratio ratio-16x9">
         <iframe className="videos" width="660" height="415" src="https://www.youtube.com/embed/Tk4Sc80ZBsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> */}
+        
+
+      </div>
+
         <h3><a href="https://62aba59e40aaed3d07b05eda--polite-platypus-dac92c.netlify.app">Scheduler <i class="icon-link"></i></a></h3>
         <p>Schedule, edit and delete technical interviews. The app has been thoroughly tested with multiple testing frameworks and an open source tool. </p>
         <p>Back-end: Express, SQL, Node</p>
