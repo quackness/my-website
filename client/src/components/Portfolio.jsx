@@ -12,7 +12,7 @@ export default function Portfolio () {
         <p>Front-end: React, HTML + CSS</p>
         <p>Test: Cypress, Jest, StoryBook</p>
         <iframe className="videos" width="660" height="415" src="https://www.youtube.com/embed/0F8iJJ1J-OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h3>Tweeter</h3>
+        <h3><a href="https://github.com/quackness/tweeter">Tweeter <i class="icon-link"></i></a></h3>
         <p>Tweeter is a single-page Twitter clone, it uses Ajax to provide a real time update the page with user submitted tweets. The page events are handled with jQuery; the design is powered with HTML + CSS with an emphasis on mobile responsiveness.</p>
     </div>
   )
