@@ -112,8 +112,12 @@ ul li::before {
   font-size: x-large;
 }
 
-.projects {
+.project {
   display:flex;
+}
+
+.portfolio-details {
+  width: 95vw;
 }
 
 .videos {
