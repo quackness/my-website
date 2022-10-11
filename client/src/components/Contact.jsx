@@ -1,6 +1,7 @@
 export default function Contact () {
   return (
     <div className="contact" id="contact">
+      <hr></hr>
       <h2>Get in touch</h2>
       <div className="contact-icons">
         <span className="contact-element"><i class="icon-envelope icon-2x"></i>
