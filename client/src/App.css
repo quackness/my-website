@@ -96,7 +96,11 @@ ul li::before {
 
 .portfolio {
   background-color: #ddd;
-  padding: 35px 50px;
+  padding: 5px 55px;
+}
+
+.portfolio a {
+  color: #17ADB4;
 }
 
 .portfolio h2 {
@@ -140,7 +144,7 @@ ul li::before {
 }
 
 .contact h2 {
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .contact-icons {
