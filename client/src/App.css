@@ -61,23 +61,23 @@
   padding: 35px 30px;
 }
 
-.flex-container {
+.about-container {
   display: flex;
   flex-direction: row;
 }
 
-.flex-left {
+.about-left {
   width: 30%;
   height: auto;
   border-radius: 100%;
-  margin-left: 70px;;
+  margin-left: 70px;
 }
 
-.flex-right {
+.about-right {
   font-size: x-large;
   line-height: 1.5;
-  margin: 65px 70px;
-  width: 58%;
+  margin: 150px 100px 100px 100px;
+  /* width: 78%; */
 }
 
 ul {
@@ -91,7 +91,7 @@ ul li::before {
   display: inline-block; 
   width: 1em;
   margin-left: 2em;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .portfolio {
