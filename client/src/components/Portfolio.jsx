@@ -62,32 +62,29 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* <div className="portolio-video ratio ratio-16x9">
-        <iframe className="videos" width="660" height="415" src="https://www.youtube.com/embed/Tk4Sc80ZBsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> */}
+        <div className="project">
+          <div className="portfolio-details">
+            <h3>
+              <a href="https://github.com/quackness/tweeter">
+                Tweeter <i class="icon-link"></i>
+              </a>
+            </h3>
+            <p>
+              Tweeter is a single-page Twitter clone, it uses Ajax to provide a
+              real time update the page with user submitted tweets. The page
+              events are handled with jQuery; the design is powered with HTML +
+              CSS with an emphasis on mobile responsiveness.
+            </p>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/-VABYbK_jPI"
+                allowfullscreen
+              ></iframe>
+          </div>
+          </div>
+        </div>
       </div>
-      
-      <h3>
-        <a href="https://github.com/quackness/tweeter">
-          Tweeter <i class="icon-link"></i>
-        </a>
-      </h3>
-      <p>
-        Tweeter is a single-page Twitter clone, it uses Ajax to provide a real
-        time update the page with user submitted tweets. The page events are
-        handled with jQuery; the design is powered with HTML + CSS with an
-        emphasis on mobile responsiveness.
-      </p>
-      <iframe
-        className="videos"
-        width="660"
-        height="415"
-        src="https://www.youtube.com/embed/-VABYbK_jPI"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
   );
 }
