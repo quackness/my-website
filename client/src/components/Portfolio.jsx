@@ -23,7 +23,8 @@ export default function Portfolio() {
               <b>Stack:</b> PostgreSQL, Express, React, Node.
             </p>
           </div>
-          <div class="embed-responsive embed-responsive-16by9">
+       
+          <div class="embed-responsive embed-responsive-16by9 border border-dark">
             <iframe
               class="embed-responsive-item"
               src="https://www.youtube.com/embed/Tk4Sc80ZBsE"
@@ -53,7 +54,7 @@ export default function Portfolio() {
               <b>Test:</b> Cypress, Jest, StoryBook
             </p>
           </div>
-          <div className="embed-responsive embed-responsive-16by9">
+          <div className="embed-responsive embed-responsive-16by9 border border-dark">
             <iframe
               className="embed-responsive-item"
               src="https://www.youtube.com/embed/0F8iJJ1J-OQ"
@@ -76,7 +77,7 @@ export default function Portfolio() {
               CSS with an emphasis on mobile responsiveness.
             </p>
           </div>
-          <div className="embed-responsive embed-responsive-16by9">
+          <div className="embed-responsive embed-responsive-16by9 border border-dark">
               <iframe
                 className="embed-responsive-item"
                 src="https://www.youtube.com/embed/-VABYbK_jPI"
