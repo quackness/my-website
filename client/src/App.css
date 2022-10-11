@@ -110,10 +110,13 @@ ul li::before {
 
 .portfolio p {
   font-size: x-large;
+  margin-right: 50px;
+  text-align: justify;
 }
 
 .project {
   display:flex;
+  margin-bottom: 50px;
 }
 
 .portfolio-details {
