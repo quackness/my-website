@@ -11,14 +11,15 @@ export default function Portfolio() {
               </a>
             </h3>
             <p>
-              Web CRUD app for scheduling a neighbourhood tool rental. The app
+              Web CRUD app for scheduling a neighbourhood tool sharing. The app
               is using React calendar for logged-in users to schedule the
               rental. The logged in user has a full control over his
-              reservations, can add items to the poll and manage them. Admin
+              reservations, can add items to the databse and manage them. the web site has a search bar to search for particular items in specific categories and/or groups. Admin
               section allows to manage all the tools, categories and groups.
+              The app has been deployed with Heroku and Netlify.
             </p>
             <p>
-              {" "}
+          
               <b>Stack:</b> PostgreSQL, Express, React, Node.
             </p>
           </div>
@@ -26,7 +27,7 @@ export default function Portfolio() {
             <iframe
               class="embed-responsive-item"
               src="https://www.youtube.com/embed/Tk4Sc80ZBsE"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
@@ -39,9 +40,8 @@ export default function Portfolio() {
               </a>
             </h3>
             <p>
-              Schedule, edit and delete technical interviews. The app has been
-              thoroughly tested with multiple testing frameworks and an open
-              source tool.{" "}
+              Schedule, edit and delete technical interviews. The calendar side-bar updates the amount of remaining spots automatically based on the bookings.
+              The app has been deployed with Heroku and Netlify as well as thoroughly tested with multiple testing frameworks.
             </p>
             <p>
               <b>Back-end:</b> Express, SQL, Node
@@ -53,11 +53,11 @@ export default function Portfolio() {
               <b>Test:</b> Cypress, Jest, StoryBook
             </p>
           </div>
-          <div class="embed-responsive embed-responsive-16by9">
+          <div className="embed-responsive embed-responsive-16by9">
             <iframe
-              class="embed-responsive-item"
+              className="embed-responsive-item"
               src="https://www.youtube.com/embed/0F8iJJ1J-OQ"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
@@ -76,11 +76,11 @@ export default function Portfolio() {
               CSS with an emphasis on mobile responsiveness.
             </p>
           </div>
-          <div class="embed-responsive embed-responsive-16by9">
+          <div className="embed-responsive embed-responsive-16by9">
               <iframe
-                class="embed-responsive-item"
+                className="embed-responsive-item"
                 src="https://www.youtube.com/embed/-VABYbK_jPI"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
           </div>
           </div>
