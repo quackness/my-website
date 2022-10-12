@@ -39,6 +39,7 @@ export default function About() {
             When not coding you can find me hiking with my family, at the gym or
             reading Medium.
           </p>
+          {/* <button type="button" class="btn btn-light">Download my resume</button> */}
         </div>
       </div>
       <hr></hr>
