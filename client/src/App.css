@@ -40,6 +40,7 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+ 
 }
 
 .topnav a{
@@ -64,6 +65,7 @@
 .about-container {
   display: flex;
   flex-direction: row;
+  
 }
 
 .about-left {
@@ -159,6 +161,10 @@ ul li::before {
 
 .contact-element i {
   margin-right: 15px;
+}
+
+.contact a:hover {
+  color: #17ADB4;
 }
 
 

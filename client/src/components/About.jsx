@@ -5,7 +5,7 @@ export default function About() {
     <div className="about" id="about">
       <h2>Me, Myself and I</h2>
       <div className="about-container">
-        <img className="about-left" src={karo} alt="karo" />
+        <img className="about-left border border-dark" src={karo} alt="karo" />
         <div className="about-right">
           <p>
             Hi 👋, my name is Karolina and I am a full stack web developer
