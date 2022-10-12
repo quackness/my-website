@@ -16,17 +16,23 @@ export default function About() {
             expertise:
           </p>
           <ul>
-            <li><b>Languages:</b> JavaScript, HTML+CSS, Ruby</li>
             <li>
-            <b>Databases and CMS:</b>: SQL, PostgreSQL, Relational Databases,
+              <b>Languages:</b> JavaScript, HTML+CSS, Ruby
+            </li>
+            <li>
+              <b>Databases and CMS:</b>: SQL, PostgreSQL, Relational Databases,
               WordPress
             </li>
             <li>
-            <b>Frameworks, libraries and enviroments:</b> React, Node.js, AJAX,
-              jQuery, Express, SASS, EJS, JSX, Sinatra
+              <b>Frameworks, libraries and enviroments:</b> React, Node.js,
+              AJAX, jQuery, Express, SASS, EJS, JSX, Sinatra
             </li>
-            <li><b>Testing:</b> Mocha, Chai, Cypress, JEST, StoryBook</li>
-            <li><b>Tracking and collaboration:</b> JIRA, Confluence, GitHub, Git</li>
+            <li>
+              <b>Testing:</b> Mocha, Chai, Cypress, JEST, StoryBook
+            </li>
+            <li>
+              <b>Tracking and collaboration:</b> JIRA, Confluence, GitHub, Git
+            </li>
           </ul>
           <p>
             I love software development for its fast-pace and innovative nature.
@@ -39,7 +45,6 @@ export default function About() {
             When not coding you can find me hiking with my family, at the gym or
             reading Medium.
           </p>
-          {/* <button type="button" class="btn btn-light">Download my resume</button> */}
         </div>
       </div>
       <hr></hr>

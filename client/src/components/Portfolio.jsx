@@ -7,26 +7,27 @@ export default function Portfolio() {
           <div className="portfolio-details">
             <h3>
               <a href="https://toolswap.netlify.app/">
-                ToolSwap <i class="icon-link"></i>
+                ToolSwap <i className="icon-link"></i>
               </a>
             </h3>
             <p>
               Web CRUD app for scheduling a neighbourhood tool sharing. The app
               is using React calendar for logged-in users to schedule the
               rental. The logged in user has a full control over his
-              reservations, can add items to the databse and manage them. the web site has a search bar to search for particular items in specific categories and/or groups. Admin
-              section allows to manage all the tools, categories and groups.
-              The app has been deployed with Heroku and Netlify.
+              reservations, can add items to the databse and manage them. the
+              web site has a search bar to search for particular items in
+              specific categories and/or groups. Admin section allows to manage
+              all the tools, categories and groups. The app has been deployed
+              with Heroku and Netlify.
             </p>
             <p>
-          
               <b>Stack:</b> PostgreSQL, Express, React, Node.
             </p>
           </div>
-       
-          <div class="embed-responsive embed-responsive-16by9 border border-dark">
+
+          <div className="embed-responsive embed-responsive-16by9 border border-dark">
             <iframe
-              class="embed-responsive-item"
+              className="embed-responsive-item"
               src="https://www.youtube.com/embed/Tk4Sc80ZBsE"
               allowFullScreen
             ></iframe>
@@ -37,12 +38,14 @@ export default function Portfolio() {
           <div className="portfolio-details">
             <h3>
               <a href="https://62aba59e40aaed3d07b05eda--polite-platypus-dac92c.netlify.app">
-                Scheduler <i class="icon-link"></i>
+                Scheduler <i className="icon-link"></i>
               </a>
             </h3>
             <p>
-              Schedule, edit and delete technical interviews. The calendar side-bar updates the amount of remaining spots automatically based on the bookings.
-              The app has been deployed with Heroku and Netlify as well as thoroughly tested with multiple testing frameworks.
+              Schedule, edit and delete technical interviews. The calendar
+              side-bar updates the amount of remaining spots automatically based
+              on the bookings. The app has been deployed with Heroku and Netlify
+              as well as thoroughly tested with multiple testing frameworks.
             </p>
             <p>
               <b>Back-end:</b> Express, SQL, Node
@@ -67,7 +70,7 @@ export default function Portfolio() {
           <div className="portfolio-details">
             <h3>
               <a href="https://github.com/quackness/tweeter">
-                Tweeter <i class="icon-link"></i>
+                Tweeter <i className="icon-link"></i>
               </a>
             </h3>
             <p>
@@ -78,14 +81,14 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="embed-responsive embed-responsive-16by9 border border-dark">
-              <iframe
-                className="embed-responsive-item"
-                src="https://www.youtube.com/embed/-VABYbK_jPI"
-                allowFullScreen
-              ></iframe>
-          </div>
+            <iframe
+              className="embed-responsive-item"
+              src="https://www.youtube.com/embed/-VABYbK_jPI"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>
+    </div>
   );
 }
