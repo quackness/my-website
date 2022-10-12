@@ -35,7 +35,7 @@ export default function About() {
             </li>
           </ul>
           <p>
-            I love software development for its fast-pace and innovative nature.
+            I love software development for its fast-pace and innovative nature!
             It allows me to work on problems independently as well as leverage
             the power of brain strorming when solving problems collobarotively.
             I have been recognized by my work collegues for strong work ethics
