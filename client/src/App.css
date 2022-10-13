@@ -68,7 +68,8 @@
 
 .about-left {
   width: 28vw;
-  height: auto;
+  /* height: auto; */
+  height: min-content;
   border-radius: 100%;
   margin-left: 70px;
 }
@@ -76,12 +77,15 @@
 .about-right {
   font-size: x-large;
   line-height: 1.5;
-  margin: 150px 100px 100px 100px;
+  /* margin: 150px 100px 100px 100px; */
   /* width: 78%; */
+  margin: 30px 50px 20px 100px;
+
 }
 
 ul {
   list-style: none;
+  text-align: left;
 }
 
 ul li::before {
@@ -159,6 +163,10 @@ p {
 
 .contact-element i {
   margin-right: 15px;
+}
+
+.contact-element i:hover {
+  color: #17adb4;
 }
 
 .contact a:hover {

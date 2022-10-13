@@ -20,7 +20,7 @@ export default function About() {
               <b>Languages:</b> JavaScript, HTML+CSS, Ruby
             </li>
             <li>
-              <b>Databases and CMS:</b>: SQL, PostgreSQL, Relational Databases,
+              <b>Databases and CMS:</b> SQL, PostgreSQL, Relational Databases,
               WordPress
             </li>
             <li>
@@ -35,7 +35,7 @@ export default function About() {
             </li>
           </ul>
           <p>
-            I love software development for its fast-pace and innovative nature!
+            I love software development for its fast-pace and innovative nature.
             It allows me to work on problems independently as well as leverage
             the power of brain strorming when solving problems collobarotively.
             I have been recognized by my work collegues for strong work ethics
