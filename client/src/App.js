@@ -1,4 +1,5 @@
 import './App.css';
+import './Responsivness.css';
 import TopNav from './components/TopNav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';

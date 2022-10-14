@@ -7,11 +7,40 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+/* @media only screen and (max-width: 1023px)  {
+  .about-left {
+    width: 60%;
+  }
+  .topnav{
+    width: auto;
+
+  }
+} */
+
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+  /* Write smartphone only styles here */
+
+  .about-container {
+    flex-direction: column !important;
+  }
+  .topnav {
+    
+  }
+
+  body {
+    width: 100%;
+  }
+
 }
+
+@media only screen and (min-width: 1024px) {
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -169,7 +198,7 @@ p {
   color: #17adb4;
 }
 
-.contact a:hover {
+.contact-element a:hover {
   color: #17adb4;
 }
 
