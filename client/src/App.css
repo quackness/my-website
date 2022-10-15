@@ -70,6 +70,7 @@
 body {
   width: 100%;
   background-color: #ddd;
+  /* padding-right: 30px; */
 }
 
 .topnav {
@@ -79,6 +80,10 @@ body {
   top: 0;
   width: 100%;
   z-index: 1;
+}
+
+.nav-text {
+  margin-right: 40px;
 }
 
 .topnav a {
@@ -248,6 +253,7 @@ p {
   padding: 40px;
   background-color: #333;
   overflow: hidden;
+  width: 100%;
 }
 
 
