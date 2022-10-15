@@ -28,9 +28,7 @@
   .about-container {
     flex-direction: column !important;
   }
-  .topnav {
-    
-  }
+  
 
   body {
     width: 100%;
@@ -67,9 +65,19 @@
   }
 }
 
+
+
+body {
+  width: 100%;
+  background-color: #ddd;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .topnav a {
@@ -89,6 +97,7 @@
 .about {
   background-color: #ddd;
   padding: 35px 30px;
+  margin-top: 105px; 
 }
 
 .about-container {
