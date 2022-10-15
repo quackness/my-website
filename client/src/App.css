@@ -96,9 +96,14 @@ body {
 
 .about {
   background-color: #ddd;
-  padding: 35px 30px;
-  margin-top: 105px; 
+  margin-top: 80px; 
+  margin-left: 40px;
 }
+
+.about h2 {
+  padding-top: 70px;
+}
+
 
 .about-container {
   display: flex;
@@ -111,7 +116,26 @@ body {
   height: min-content;
   border-radius: 100%;
   margin-left: 70px;
+
 }
+
+/* .about-left img {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+} */
+
+.about-left img:hover {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+
+
 
 .about-right {
   font-size: x-large;
@@ -121,6 +145,8 @@ body {
   margin: 30px 50px 20px 100px;
 
 }
+
+
 
 ul {
   list-style: none;
@@ -133,8 +159,9 @@ ul li::before {
   font-weight: bolder;
   display: inline-block;
   width: 1em;
-  margin-left: 2em;
+  /* margin-left: 1em; */
   line-height: 1.5;
+  
 }
 
 .portfolio {
@@ -151,7 +178,11 @@ ul li::before {
 }
 
 .portfolio h2 {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+}
+
+.portfolio h2 {
+  padding-top: 30px;
 }
 
 .portfolio h3,

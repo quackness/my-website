@@ -2,8 +2,8 @@ import karo from "../karo.jpeg";
 
 export default function About() {
   return (
-    <div className="about" id="about">
-      <h2>Me, Myself and I</h2>
+    <div className="about">
+      <h2 id="about">Me, Myself and I</h2>
       <div className="about-container">
         <img className="about-left border border-dark" src={karo} alt="karo" />
         <div className="about-right">
