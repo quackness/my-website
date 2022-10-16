@@ -3,9 +3,14 @@ import karo from "../karo.jpeg";
 export default function About() {
   return (
     <div className="about">
-      <h2 id="about">Me, Myself and I</h2>
+      <div class>
+
+        <h2 id="about">Me, Myself and I</h2>
+      </div>
       <div className="about-container">
-        <img className="about-left border border-dark" src={karo} alt="karo" />
+        <div className="about-image">
+          <img height="100%" width="100%" className="img-fluid border border-dark" src={karo} alt="karo" />
+        </div>
         <div className="about-right">
           <p>
             Hi 👋, my name is Karolina and I am a full stack web developer
