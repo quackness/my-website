@@ -24,11 +24,30 @@
 
 @media only screen and (min-width: 320px) and (max-width: 420px) {
   /* Write smartphone only styles here */
+
+  .email a {
+    font-size: larger !important;
+  }
+  
+  .contact-icons {
+    flex-direction: column !important;
+  }
+  body {
+    padding: 0px;
+  }
+  .about {
+    margin-left: 0 !important;
+  }
+
+  .portfolio {
+    padding: 5px 0px !important;
+  }
   .nav-text {
     margin:0 !important;
-    display:flex;
+    margin-left: 4.5% !important;
+    display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: flex-end;
   }
   .about-left {
     margin-left:0;
@@ -47,6 +66,15 @@
   .project {
     display: flex;
     flex-direction: column;
+  }
+
+  /* .icon-envelope .icon-linkedin {
+    visibility: hidden;
+  } */
+
+  .footer {
+    width: 100%;
+    height: 100px;
   }
 
 }
@@ -84,7 +112,7 @@
 body {
   width: 100%;
   background-color: #ddd;
-  /* padding-right: 30px; */
+
 }
 
 .topnav {
@@ -270,10 +298,12 @@ p {
 }
 
 .footer {
-  padding: 40px;
+  /* padding-top: 60px; */
   background-color: #333;
   overflow: hidden;
   width: 100%;
+  min-height: 5vw;
+  margin: 0px !important;
 }
 
 
