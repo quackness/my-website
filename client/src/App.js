@@ -8,13 +8,15 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-   <div>
-    <TopNav />
-    <About />
-    <Portfolio />
-    <Contact />
+    <div>
+    <div className='container-fluid'>
+      <TopNav />
+      <About />
+      <Portfolio />
+      <Contact />
+    </div>
     <Footer />
-   </div>
+    </div>
   );
 }
 export default App;

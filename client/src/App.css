@@ -7,58 +7,7 @@
   pointer-events: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 420px) {
-  .email a {
-    font-size: larger !important;
-  }
 
-  .contact-icons {
-    flex-direction: column !important;
-  }
-  body {
-    padding: 0px;
-  }
-  .about {
-    margin-left: 0 !important;
-  }
-
-  .portfolio {
-    padding: 5px 0px !important;
-  }
-  .nav-text {
-    margin: 0 !important;
-    margin-left: 4.5% !important;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-  }
-  .about-left {
-    margin-left: 0;
-  }
-  .about-container {
-    display: flex;
-    flex-direction: column !important;
-  }
-  .about-right {
-    margin: 30px 0 0 0 !important;
-  }
-  body {
-    width: 100%;
-    background-color: #ddd;
-  }
-  .project {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer {
-    width: 100%;
-    height: 100px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-}
 
 .App-header {
   background-color: #282c34;
