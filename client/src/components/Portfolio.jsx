@@ -11,7 +11,7 @@ export default function Portfolio() {
               </a>
             </h3>
             <p>
-              Web CRUD app for scheduling a neighbourhood tool sharing. The app
+              Web CRUD app for scheduling a neighbourhood tool sharing! The app
               is using React calendar for logged-in users to schedule the
               rental. The logged in user has a full control over his
               reservations, can add items to the databse and manage them. the
