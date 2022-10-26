@@ -17,7 +17,7 @@ export default function About() {
             living in Middle Sackville, Nova Scotia. My passion for technology
             has pushed me to pivot from being a corporate coach and explore the
             depths of software development. I have graduated from LightHouse
-            Labs Software Development Programe with the following stack
+            Labs Software Development Program with the following stack
             expertise:
           </p>
           <ul>
