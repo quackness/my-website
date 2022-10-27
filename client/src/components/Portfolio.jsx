@@ -69,6 +69,30 @@ export default function Portfolio() {
         <div className="project">
           <div className="portfolio-details">
             <h3>
+              <a href="https://github.com/manuelcasanova/wikimaps">
+                WikiMaps <i className="icon-link"></i>
+              </a>
+            </h3>
+            <p>
+              Use interactive resources to create maps with markers pointing to
+              locations based on their longitude and latitude. 
+              The app has been built with Express, Node.js and PostgreSQL on the back-end and
+              HTML+CSS on the front-end. It uses open-source JavaScript library
+              Leaflet for interactive maps.
+            </p>
+          </div>
+          <div className="embed-responsive embed-responsive-16by9 border border-dark">
+            <iframe
+              className="embed-responsive-item"
+              src="https://www.youtube.com/embed/TuXmS_Ym7js"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="portfolio-details">
+            <h3>
               <a href="https://github.com/quackness/tweeter">
                 Tweeter <i className="icon-link"></i>
               </a>
