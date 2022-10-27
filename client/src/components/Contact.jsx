@@ -20,7 +20,7 @@ export default function Contact() {
         </span>
         <span className="contact-element">
           <i className="icon-instagram icon-2x"></i>
-          <a href="https://github.com/quackness">/dakaraah</a>
+          <a href="https://www.instagram.com/dakaraah/">/dakaraah</a>
         </span>
       </div>
     </div>
