@@ -80,7 +80,13 @@ export default function Portfolio() {
               HTML+CSS on the front-end. It uses open-source JavaScript library
               Leaflet for interactive maps.
             </p>
-          </div>
+            <p>
+              <b>Back-end:</b> Express, Node.js, PostgreSQL
+            </p>
+            <p>
+              <b>Front-end:</b> HTML + CSS
+            </p>
+                     </div>
           <div className="embed-responsive embed-responsive-16by9 border border-dark">
             <iframe
               className="embed-responsive-item"
