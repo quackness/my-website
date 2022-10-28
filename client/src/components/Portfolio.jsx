@@ -75,10 +75,9 @@ export default function Portfolio() {
             </h3>
             <p>
               Use interactive resources to create maps with markers pointing to
-              locations based on their longitude and latitude. The app has been
-              built with Express, Node.js and PostgreSQL on the back-end and
-              HTML+CSS on the front-end. It uses open-source JavaScript library
-              Leaflet for interactive maps.
+              locations based on their longitude and latitude. User's profile
+              holds information on the maps created by a user and points they
+              have added to any map. 
             </p>
             <p>
               <b>Back-end:</b> Express, Node.js, PostgreSQL
@@ -86,6 +85,8 @@ export default function Portfolio() {
             <p>
               <b>Front-end:</b> HTML + CSS
             </p>
+            <p> The app uses open-source JavaScript library Leaflet for
+              interactive maps.</p>
           </div>
           <div className="embed-responsive embed-responsive-16by9 border border-dark">
             <iframe
