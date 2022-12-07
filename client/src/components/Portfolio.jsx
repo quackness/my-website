@@ -37,7 +37,7 @@ export default function Portfolio() {
         <div className="project">
           <div className="portfolio-details">
             <h3>
-              <a href="https://github.com/quackness/scheduler">
+              <a href="https://62aba59e40aaed3d07b05eda--polite-platypus-dac92c.netlify.app">
                 Scheduler <i className="icon-link"></i>
               </a>
             </h3>
