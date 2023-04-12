@@ -51,7 +51,7 @@ export default function Portfolio() {
               <b>Back-end:</b> Express, SQL, Node
             </p>
             <p>
-              <b>Front-end:</b> React, HTML + CSS
+              <b>Front-end:</b> React
             </p>
             <p>
               <b>Test:</b> Cypress, Jest, StoryBook
