@@ -1,4 +1,15 @@
+import React from "react";
+import ReactGA from "./ga";
+
 export default function Portfolio() {
+  const handleClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "Click",
+      label: "Portfolio",
+    });
+  };
+
   return (
     <div className="portfolio" id="portfolio">
       <h2 id="portfolio">Projects</h2>
@@ -6,7 +17,10 @@ export default function Portfolio() {
         <div className="project">
           <div className="portfolio-details">
             <h3>
-              <a href="https://github.com/manuelcasanova/finals">
+              <a
+                href="https://github.com/manuelcasanova/finals"
+                onClick={handleClick}
+              >
                 ToolSwap <i className="icon-link"></i>
               </a>
             </h3>
@@ -77,7 +91,7 @@ export default function Portfolio() {
               Use interactive resources to create maps with markers pointing to
               locations based on their longitude and latitude. User's profile
               holds information on the maps created by a user and points they
-              have added to any map. 
+              have added to any map.
             </p>
             <p>
               <b>Back-end:</b> Express, Node.js, PostgreSQL
@@ -85,8 +99,11 @@ export default function Portfolio() {
             <p>
               <b>Front-end:</b> HTML + CSS
             </p>
-            <p> The app uses open-source JavaScript library Leaflet for
-              interactive maps.</p>
+            <p>
+              {" "}
+              The app uses open-source JavaScript library Leaflet for
+              interactive maps.
+            </p>
           </div>
           <div className="embed-responsive embed-responsive-16by9 border border-dark">
             <iframe
