@@ -1,5 +1,5 @@
 import React from "react";
-import ReactGA from "./ga";
+import ReactGA from "../ga";
 
 export default function Portfolio() {
   const handleClick = () => {
