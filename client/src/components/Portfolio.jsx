@@ -4,7 +4,7 @@ import ReactGA from "../ga";
 export default function Portfolio() {
   const handleClick = () => {
     ReactGA.event({
-      category: "Button",
+      category: "Link",
       action: "Click",
       label: "Portfolio",
     });
