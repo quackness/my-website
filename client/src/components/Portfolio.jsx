@@ -18,8 +18,12 @@ export default function Portfolio() {
           <div className="portfolio-details">
             <h3>
               <a
-                href="https://github.com/manuelcasanova/finals"
-                onClick={handleClick}
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleClick();
+                  window.location.href =
+                    "https://github.com/manuelcasanova/finals";
+                }}
               >
                 ToolSwap <i className="icon-link"></i>
               </a>
