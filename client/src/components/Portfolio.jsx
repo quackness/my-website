@@ -17,6 +17,11 @@ export default function Portfolio() {
         <div className="project">
           <div className="portfolio-details">
             <h3>
+              <a href="https://github.com/manuelcasanova/finals">
+                ToolSwap <i className="icon-link"></i>
+              </a>
+            </h3>
+            {/* <h3>
               <a
                 onClick={(e) => {
                   e.preventDefault();
@@ -27,7 +32,7 @@ export default function Portfolio() {
               >
                 ToolSwap <i className="icon-link"></i>
               </a>
-            </h3>
+            </h3> */}
             <p>
               Web CRUD app for scheduling a neighbourhood tool sharing! The app
               is using React calendar for logged-in users to schedule the
