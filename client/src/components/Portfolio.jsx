@@ -4,7 +4,7 @@ import ReactGA from "../ga";
 export default function Portfolio() {
   const handleClick = () => {
     ReactGA.event({
-      category: "Link",
+      category: "Click",
       action: "Click",
       label: "Portfolio",
     });
@@ -25,7 +25,7 @@ export default function Portfolio() {
                     "https://github.com/manuelcasanova/finals";
                 }}
               >
-                ToolSwap <i className="icon-link" onClick={handleClick}></i>
+                ToolSwap <i className="icon-link"></i>
               </a>
             </h3>
             <p>
