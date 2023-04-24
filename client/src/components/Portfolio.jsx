@@ -25,7 +25,7 @@ export default function Portfolio() {
                     "https://github.com/manuelcasanova/finals";
                 }}
               >
-                ToolSwap <i className="icon-link"></i>
+                ToolSwap <i className="icon-link" onClick={handleClick}></i>
               </a>
             </h3>
             <p>
