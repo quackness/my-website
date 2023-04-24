@@ -55,7 +55,10 @@ export default function Portfolio() {
         <div className="project">
           <div className="portfolio-details">
             <h3>
-              <a href="https://62aba59e40aaed3d07b05eda--polite-platypus-dac92c.netlify.app">
+              <a
+                href="https://62aba59e40aaed3d07b05eda--polite-platypus-dac92c.netlify.app"
+                onClick={handleClick}
+              >
                 Scheduler <i className="icon-link"></i>
               </a>
             </h3>
