@@ -148,6 +148,23 @@ export default function Portfolio() {
             ></iframe>
           </div>
         </div>
+
+        <div className="project">
+          <div className="portfolio-details">
+            <h3>
+              <a href="https://github.com/quackness/">
+                Other projects <i className="icon-link"></i>
+              </a>
+            </h3>
+            <p>
+              I code every day, ether at work or in my free time, all the most
+              up to date projects can be found at my{" "}
+              <a href="https://github.com/quackness?tab=repositories">
+                GitHub repository
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
