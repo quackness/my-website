@@ -157,12 +157,34 @@ export default function Portfolio() {
               </a>
             </h3>
             <p>
-              I code every day, ether at work or in my free time, all the most
+              I code every day, either at work or in my free time, all the most
               up to date projects can be found at my{" "}
               <a href="https://github.com/quackness?tab=repositories">
                 GitHub repository
               </a>
             </p>
+            <div class="other-projects-highlights">
+              <div class="project-buton">
+                <span class="project-stack">
+                  <h5>MAMP Stack</h5>
+                </span>
+                <a href="https://github.com/quackness/Halifax-Canoe-and-Kayak">
+                  <button>Halifax Kayak Club</button>
+                </a>
+              </div>
+              <div class="project-buton">
+                <h5>Vue.js</h5>
+                <a href="https://github.com/quackness/vue-task-creator">
+                  <button>To-do list creator</button>
+                </a>
+              </div>
+              <div class="project-buton">
+                <h5>React and atomic CSS</h5>
+                <a href="https://filter-images-theta.vercel.app/">
+                  <button>Filter Images App</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
