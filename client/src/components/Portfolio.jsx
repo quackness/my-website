@@ -168,7 +168,7 @@ export default function Portfolio() {
                 <span class="project-stack">
                   <h5>MAMP Stack</h5>
                 </span>
-                <a href="https://github.com/quackness/Halifax-Canoe-and-Kayak">
+                <a href="https://kayak-hfx.000webhostapp.com/index.php">
                   <button>Halifax Kayak Club</button>
                 </a>
               </div>
