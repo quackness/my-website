@@ -30,12 +30,12 @@ export default function About() {
               <b>Languages:</b> JavaScript, PHP, HTML+CSS, Ruby
             </li>
             <li>
-              <b>Databases and CMS:</b> SQL, PostgreSQL, Relational Databases,
-              WordPress
-            </li>
-            <li>
               <b>Frameworks, libraries and enviroments:</b> React, Vue, Node.js,
               AJAX, jQuery, Express, SASS, EJS, JSX, Sinatra
+            </li>
+            <li>
+              <b>Databases and CMS:</b> SQL, PostgreSQL, Relational Databases,
+              WordPress
             </li>
             <li>
               <b>Testing:</b> Mocha, Chai, Cypress, JEST, StoryBook
