@@ -300,4 +300,11 @@ button {
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #17adb4;
+  color: whitesmoke;
+}
+
+thead,
+td {
+  font-size: x-large;
+  color: #212529;
 }
