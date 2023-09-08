@@ -304,6 +304,7 @@ button {
 }
 
 thead,
+th,
 td {
   font-size: x-large;
   color: #212529;
