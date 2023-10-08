@@ -5,7 +5,6 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Table from './components/Table';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <TopNav />
         <About />
         <Portfolio />
-        <Table />
         <Contact />
       </div>
       <Footer />
