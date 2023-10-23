@@ -21,9 +21,7 @@ export default function About() {
             Hi 👋, my name is Karolina and I am a full stack web developer
             living in Middle Sackville, Nova Scotia. My passion for technology
             has pushed me to pivot from being a corporate coach and explore the
-            depths of software development. I have graduated from LightHouse
-            Labs Software Development Program as well as Skills For Hire with
-            the following stack expertise:
+            depths of software development. I have studied software development and have the following stack expertise:
           </p>
           <ul>
             <li>
@@ -38,11 +36,10 @@ export default function About() {
               WordPress
             </li>
             <li>
-              <b>Testing:</b> Mocha, Chai, Cypress, JEST, StoryBook
+              <b>Testing:</b> Mocha, Chai, Cypress, JEST, Vue Test Utils, StoryBook
             </li>
             <li>
-              <b>Tracking and collaboration:</b> JIRA, Confluence, GitHub, Git,
-              Shortcut, Figma
+              <b>Tracking and collaboration:</b> Git,Shortcut, Figma, JIRA, Confluence, GitHub, 
             </li>
           </ul>
           <p>
